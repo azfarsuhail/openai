@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Website with OpenAI API, Next.js, and Tailwind CSS
 
-## Getting Started
+This repository contains the source code for a website that utilizes the OpenAI API for various natural language processing tasks. The front end is built using Next.js and styled with Tailwind CSS, while the backend is powered by Node.js with Next.js Server Component.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Integration with the OpenAI API for natural language processing tasks.
+- Front end built with Next.js, providing server-side rendering and efficient client-side navigation.
+- Styling done using Tailwind CSS, a utility-first CSS framework.
+- Backend logic implemented with Node.js and Next.js Server Component.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requirements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js
+- npm or Yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone <repository-url>
+2. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   cd openai
+    npm install
+    # or
+    yarn install
+3. Configuration:
+  To configure the OpenAI API, you will need to obtain an API key from the OpenAI platform. Once you have the API key, you can set it as an environment variable.
+  export OPENAI_API_KEY=<your-api-key>
+4. Usage
+  npm run dev
+  # or
+  yarn dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
