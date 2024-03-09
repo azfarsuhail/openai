@@ -21,17 +21,22 @@ This repository contains the source code for a website that utilizes the OpenAI 
    ```bash
    git clone <repository-url>
 2. Install dependencies:
-
+   ```bash
    cd openai
     npm install
     # or
     yarn install
 3. Configuration:
-  To configure the OpenAI API, you will need to obtain an API key from the OpenAI platform. Once you have the API key, you can set it as an environment variable.
-  export OPENAI_API_KEY=<your-api-key>
+To configure the OpenAI API, you will need to obtain an API key from the OpenAI platform. Once you have the API key, you can set it as an environment variable.
+```bash
+export OPENAI_API_KEY=<your-api-key>
+```
 4. Usage
-  npm run dev
-  # or
-  yarn dev
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+
+
 
 
